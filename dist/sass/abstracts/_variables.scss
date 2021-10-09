@@ -1,0 +1,28 @@
+// COLORS
+$color-primary: #590222;
+$color-primary-light: scale-color($color-primary, $lightness: 20%);
+$color-primary-light-2: scale-color($color-primary, $lightness: 30%);
+$color-primary-dark: scale-color($color-primary, $lightness: -10%);
+
+$color-secondary: #f27405;
+$color-secondary-light: scale-color($color-secondary, $lightness: 10%);
+$color-secondary-dark: scale-color($color-secondary, $lightness: -10%);
+
+$color-tertiary: #f2efe9;
+$color-green: #009926;
+
+$text-color: #222;
+$placeholder-color: #b9b9b8;
+
+$color-white: #fff;
+$color-black: #000;
+
+$social-icons-box-shadow: -0.5rem 0.5rem 1rem #330315;
+
+$default-font-family: 'Poppins', sans-serif;
+$default-font-size: 1.6rem;
+$default-width: 150rem;
+$default-padding: 4rem;
+$default-padding-sm: 2.5rem;
+$default-border-radius: 2rem;
+$header-height: 11rem;

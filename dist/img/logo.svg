@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="572"
+   height="173"
+   viewBox="0 0 151.34169 45.772927"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="logo.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="243.2831"
+     inkscape:cy="341.01135"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     units="px" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g851"
+       style="opacity:0.996"
+       inkscape:export-filename="E:\WORK\Learning\Web Dev\PROJECTS\Explore Inside\img\logo.png"
+       inkscape:export-xdpi="149.412"
+       inkscape:export-ydpi="149.412"
+       transform="matrix(1.5973193,0,0,1.5973193,-75.403161,-95.911604)">
+      <text
+         xml:space="preserve"
+         style="font-size:19.7556px;line-height:1.25;font-family:slacky;-inkscape-font-specification:slacky;letter-spacing:0px;fill:#f27405;fill-opacity:1;stroke-width:0.264583"
+         x="46.31945"
+         y="73.521927"
+         id="text835"><tspan
+           sodipodi:role="line"
+           id="tspan833"
+           x="46.31945"
+           y="73.521927"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.7556px;font-family:'Wanderlust Letters';-inkscape-font-specification:'Wanderlust Letters';fill:#f27405;fill-opacity:1;stroke-width:0.264583">Explore Inside</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:slacky;-inkscape-font-specification:slacky;letter-spacing:0px;fill:#f2efe9;fill-opacity:1;stroke-width:0.264583"
+         x="69.890991"
+         y="84.590797"
+         id="text839"><tspan
+           sodipodi:role="line"
+           id="tspan837"
+           x="69.890991"
+           y="84.590797"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Wanderlust Letters';-inkscape-font-specification:'Wanderlust Letters';fill:#f2efe9;fill-opacity:1;stroke-width:0.264583">Photography</tspan></text>
+    </g>
+  </g>
+</svg>

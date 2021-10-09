@@ -1,0 +1,26 @@
+.header {
+  background-color: $color-primary;
+  height: $header-height;
+  position: relative;
+}
+
+.logo {
+  @include center-content;
+  display: flex;
+  align-items: center;
+  height: $header-height;
+
+  @include respond(tab-land) {
+    width: 70%;
+  }
+
+  @include respond(tab-port) {
+    width: 85%;
+  }
+
+  &__img {
+    padding: 0 7rem;
+    width: 35rem;
+    position: absolute;
+  }
+}

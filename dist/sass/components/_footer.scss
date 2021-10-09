@@ -1,0 +1,44 @@
+.footer {
+  font-size: 1.4rem;
+  max-width: $default-width;
+  margin: 5rem auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  &__left {
+    border-left: 0.4rem solid $color-primary-light;
+    padding-left: 2rem;
+  }
+
+  &__heading {
+    color: $color-primary-light;
+  }
+
+  &__phone--link {
+    text-decoration: none;
+    color: $text-color;
+    font-weight: 600;
+    display: inline-block;
+    transition: all 0.2s ease;
+
+    &:hover {
+      transform: translateX(2px);
+    }
+  }
+
+  &__email--link {
+    text-decoration: none;
+    color: $text-color;
+    display: inline-block;
+    transition: all 0.2s ease;
+
+    &:hover {
+      transform: translateX(2px);
+    }
+  }
+
+  &__designed-by {
+    font-weight: 600;
+  }
+}

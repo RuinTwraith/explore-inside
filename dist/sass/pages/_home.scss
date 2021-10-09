@@ -1,0 +1,223 @@
+.section-herobox {
+  @include center-content;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 10rem auto;
+
+  @include respond(tab-land) {
+    grid-template-columns: 1fr;
+    gap: 10rem;
+    width: 75%;
+    margin: 8rem auto;
+  }
+
+  @include respond(tab-port) {
+    width: 85%;
+    margin: 6rem auto;
+  }
+
+  @include respond(tab-small) {
+    width: 90%;
+    margin: 4rem auto;
+    gap: 7rem;
+  }
+
+  @include respond(phone-xl) {
+    width: 95%;
+    margin: 2rem auto;
+    gap: 5rem;
+  }
+
+  @include respond(phone-l) {
+    width: 100%;
+    margin: 2rem auto;
+    gap: 5rem;
+  }
+
+  .about-me {
+    padding: $default-padding 6rem;
+
+    @include respond(phone-m) {
+      padding: $default-padding-sm 4rem;
+    }
+
+    &__photo {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    &__img {
+      display: inline-block;
+      width: 30rem;
+      border-radius: 50%;
+
+      @include respond(tab-land) {
+        width: 28rem;
+      }
+
+      @include respond(tab-small) {
+        width: 25rem;
+      }
+
+      @include respond(phone-l) {
+        width: 22rem;
+      }
+    }
+
+    &__text {
+      font-size: 4.5rem;
+      font-weight: 400;
+      line-height: 6rem;
+      font-family: 'Mali', cursive;
+      margin-bottom: 5rem;
+
+      @include respond(desktop) {
+        font-size: 4rem;
+      }
+
+      @include respond(phone-xl) {
+        text-align: center;
+        line-height: 5rem;
+      }
+
+      @include respond(phone-l) {
+        font-size: 3.2rem;
+      }
+    }
+
+    &__button {
+      @include respond(phone-xl) {
+        text-align: center;
+      }
+    }
+  }
+
+  .services {
+    padding: $default-padding;
+    border-radius: $default-border-radius;
+
+    @include respond(phone-m) {
+      padding: $default-padding-sm;
+    }
+    // background-color: $color-tertiary;
+    // box-shadow: 5px -5px 10px #d7d5cf, -5px 5px 10px #ffffff;
+  }
+}
+
+.section-social-links {
+  margin: 10rem auto;
+  padding: 3rem 0 6rem;
+  background-color: $color-primary;
+  color: $color-tertiary;
+  letter-spacing: 2px;
+
+  .social {
+    @include center-content;
+    width: 40rem;
+    margin: auto;
+
+    @include respond(phone-l) {
+      width: 30rem;
+    }
+
+    &__container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &__heading {
+      text-align: center;
+      font-size: 2.5rem;
+      font-weight: 400;
+      margin-bottom: 3rem;
+    }
+
+    &__links {
+      display: inline-block;
+      padding: 1rem;
+      width: 6rem;
+      height: 6rem;
+      background-color: $color-tertiary;
+      box-shadow: $social-icons-box-shadow;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s ease;
+      position: relative;
+      color: $text-color;
+
+      &--instagram:hover::after {
+        content: 'Instagram';
+      }
+      &--facebook:hover::after {
+        content: 'Facebook';
+      }
+      &--linkedin:hover::after {
+        content: 'Linkedin';
+      }
+      &--email:hover::after {
+        content: 'exploreinside50@gmail.com';
+      }
+
+      &:hover {
+        &::after {
+          position: absolute;
+          background-color: $color-tertiary;
+          font-size: 1.2rem;
+          padding: 0.2rem 1rem;
+          font-weight: 600;
+          bottom: -3rem;
+          border-radius: 0.5rem;
+          letter-spacing: normal;
+        }
+      }
+
+      @include respond(tab-small) {
+        width: 5rem;
+        height: 5rem;
+      }
+
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+    &__img {
+      display: inline-block;
+      width: 3.2rem;
+      height: auto;
+
+      @include respond(tab-small) {
+        width: 2.5rem;
+      }
+    }
+  }
+}
+
+.section-contact {
+  @include center-content;
+  margin-bottom: 10rem;
+  display: flex;
+  justify-content: center;
+
+  &__form {
+    padding: 4rem 8rem;
+    border-radius: $default-border-radius;
+    background-color: $color-tertiary;
+    box-shadow: 0.5rem -0.5rem 1rem #d7d5cf, -0.5rem 0.5rem 1rem #ffffff;
+
+    @include respond(tab-small) {
+      padding: 4rem 6rem;
+    }
+
+    @include respond(phone-m) {
+      padding: 4rem;
+      border-radius: 0;
+    }
+  }
+
+  &__query {
+    font-size: 1.2rem;
+  }
+}

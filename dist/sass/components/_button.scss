@@ -1,0 +1,35 @@
+.button-primary {
+  &,
+  &:link,
+  &:visited {
+    font-size: 2rem;
+    font-family: $default-font-family;
+    padding: 1.3rem 2rem;
+    border-radius: 0.8rem;
+    border: none;
+    background-color: $color-secondary;
+    box-shadow: 1px 5px 30px $color-secondary-light;
+    color: $color-white;
+    font-weight: 600;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.4s ease;
+
+    @include respond(tab-small) {
+      padding: 1rem 1.8rem;
+    }
+  }
+  &:hover {
+    transform: translateY(-3px);
+    background-color: $color-primary-light-2;
+    box-shadow: 1px 5px 30px $color-primary-light-2;
+  }
+
+  &:active,
+  &:focus {
+    outline: none;
+    transform: translateY(-1px);
+  }
+}

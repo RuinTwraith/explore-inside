@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Explore Inside</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="./img/favicon/site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,400;1,200&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <div class="header">
+      <div class="logo">
+        <img src="./img/logo.svg" alt="Explore Inside" class="logo__img" />
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section-herobox">
+      <div class="about-me">
+        <div class="about-me__photo">
+          <img src="./img/suman.webp" alt="Suman Jana" class="about-me__img" />
+        </div>
+        <h2 class="about-me__text">
+          Hi, My name is Suman Jana. I do photography.
+        </h2>
+        <div class="about-me__button">
+          <a href="#contact-form" class="button-primary">Contact Me</a>
+        </div>
+      </div>
+      <div class="services">
+        <div class="heading-secondary">
+          <h2 class="heading-secondary__text u-margin-left-small">
+            My Services
+          </h2>
+          <img class="heading-secondary__arrow" src="./img/arrow.svg" />
+        </div>
+        <div class="services__cards">
+          <div class="card">
+            <a href="#contact-form" class="card__link">
+              <img src="./img/product.svg" class="card__img" alt="product img" />
+              <h3 class="card__heading">Product Photography</h3>
+              <p class="card__para">
+                Experts says using both high quality images and higer quantity
+                of images increases conversion rates by
+                <span class="u-bold">65%</span> . Say yes to more sales!
+              </p>
+            </a>
+          </div>
+          <div class="card">
+            <a href="#contact-form" class="card__link">
+              <img src="./img/portrait.svg" class="card__img" alt="portrait img" />
+              <h3 class="card__heading">Portraits</h3>
+              <p class="card__para">
+                Whether doing a cosplay, or just feeling good today, capture
+                your smile and save that beautiful memory forever to enjoy
+                what you truly are! You are
+                <span class="u-bold">100% </span>awesome.
+              </p>
+            </a>
+          </div>
+          <div class="card">
+            <a href="#contact-form" class="card__link">
+              <img src="./img/event.svg" class="card__img" alt="event img" />
+              <h3 class="card__heading">Event Photography</h3>
+              <p class="card__para">
+                Special events are part of our lives, be it your wedding or a
+                celebration party. Enjoy those precious moments with your
+                friends and family while we capture those memories
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-social-links">
+      <div class="social">
+        <h2 class="social__heading">My Socials</h2>
+        <div class="social__container">
+          <a href="https://www.instagram.com/exploreinsidephotography/?hl=en"
+            class="social__links social__links--instagram" target="_blank">
+            <img src="./img/instagram.png" alt="instagram" class="social__img" /></a>
+          <a href="https://www.facebook.com/exploreeeo" class="social__links social__links--facebook" target="_blank">
+            <img src="./img/facebook.png" alt="facebook" class="social__img" /></a>
+          <a href="https://www.linkedin.com/company/explore-inside-photography/"
+            class="social__links social__links--linkedin" target="_blank">
+            <img src="./img/linkedin.png" alt="linkedin" class="social__img" /></a>
+          <a href="mailto:exploreinside50@gmail.com" class="social__links social__links--email" target="_blank">
+            <img src="./img/email.png" alt="email" class="social__img" /></a>
+        </div>
+      </div>
+    </section>
+    <section id="contact-form" class="section-contact">
+      <div class="section-contact__form">
+        <div class="heading-secondary u-margin-bottom-small">
+          <h2 class="heading-secondary__text">Contact Me</h2>
+          <img class="heading-secondary__arrow" src="./img/arrow.svg" />
+        </div>
+        <form action="#" class="form" id="contactForm">
+          <div class="form__grid">
+            <div class="form__group form__group--name">
+              <label for="name" class="form__label required-field">Your Name</label>
+              <input type="text" class="form__input" placeholder="Bruce" id="name" required />
+            </div>
+            <div class="form__group form__group--phone">
+              <label for="phone" class="form__label required-field">Phone</label>
+              <input type="text" class="form__input" placeholder="844XXXXXXX" id="phone" required />
+            </div>
+            <div class="form__group form__group--email">
+              <label for="email" class="form__label">Email</label>
+              <input type="email" class="form__input" placeholder="bruce@wayne.com" id="email" />
+            </div>
+            <div class="form__group form__group--city">
+              <label for="city" class="form__label">City</label>
+              <input type="text" class="form__input" placeholder="Mumbai" id="city" />
+            </div>
+            <div class="form__group form__group--message">
+              <label for="message" class="form__label">Message</label>
+              <textarea type="text" class="form__input form__input--message" placeholder="Message"
+                id="message"></textarea>
+            </div>
+          </div>
+          <p class="section-contact__query">
+            (We will contact you within 24h)
+          </p>
+
+          <div class="form__btn-grp">
+            <div class="form__alert">Your message is sent! &#128522</div>
+            <button class="button-primary">Send</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer">
+      <div class="footer__left">
+        <h3 class="footer__heading">Say Hi! &#128075</h3>
+        <p class="footer__phone">
+          <a href="tel:+918447294960" class="footer__phone--link">+91-(8447-040794)</a>
+        </p>
+        <p class="footer__email">
+          <a href="mailto:dibbenduk@gmail.com" class="footer__email--link" target="_blank">sumanjana@gmail.com
+          </a>
+        </p>
+      </div>
+      <div class="footer__right">
+        <p class="footer__designed-by">Designed with &#128151</p>
+        <p class="footer__credit">By - Dibbendu Koley</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>

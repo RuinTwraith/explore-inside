@@ -1,0 +1,29 @@
+body {
+  font-family: $default-font-family;
+  font-weight: 400;
+  line-height: 1.7;
+  color: $text-color;
+}
+
+.heading-secondary {
+  position: relative;
+  display: flex;
+
+  &__text {
+    font-size: 4rem;
+    color: $color-primary-light;
+
+    @include respond(tab-small) {
+      font-size: 3rem;
+    }
+  }
+  &__arrow {
+    width: 3rem;
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+
+    @include respond(tab-small) {
+      width: 2rem;
+    }
+  }
+}
